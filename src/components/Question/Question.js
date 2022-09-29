@@ -4,6 +4,7 @@ import React from 'react';
 const Question = () => {
     return (
         <div>
+        {/* add questions  */}
             <h1 className=''>Question</h1>
             <div className="Question">
                 <h1>how React works?</h1>
