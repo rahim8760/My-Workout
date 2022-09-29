@@ -11,6 +11,7 @@ const Workout = (props) => {
                     <h2>{name}</h2>
                     <h3>{details}</h3>
                     <p>Time: {Time} min</p>
+                    {/* add event hendelar */}
                     <button onClick={()=>props.workTimeEvent(props.workout)}>Add To List</button>
                 </div>
         </div>
