@@ -2,6 +2,7 @@ import './Workout.css';
 import React from 'react';
 
 const Workout = (props) => {
+    //destructing object
     const{name,details, Time, img }=props.workout;
     return (
         <div className='workout'>
