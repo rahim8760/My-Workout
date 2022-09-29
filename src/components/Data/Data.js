@@ -7,6 +7,7 @@ import Sidebar from '../Sidebar/Sidebar';
 
 
 const Data = () => {
+    // fetch data from jason file
     const [workouts, setWorkouts] = useState([]);
 
     useEffect(()=> {
