@@ -1,8 +1,22 @@
 import './Sidebar.css';
 import React from 'react';
+import { useEffect } from 'react';
+import { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-const Sidebar = (props) => {
+const Sidebar = ({time}) => {
+    const [breakTime, setBreakTime] = useState([]);
+    useEffect(() => {
+
+    }, [breakTime]);
+    const addLocalStorage = Time => {
+        localStorage.setItem("break", Time);
+        setBreakTime(Time);
+    };
+    const getLocalStorageItem = localStorage.getItem("break");
     
+    const notify = () => toast("Wow so easy!");
 
     return (
         <div className='user_info'>
@@ -32,24 +46,62 @@ const Sidebar = (props) => {
             <div className="brack">
                 <h1>Add A Break</h1>
                 <div className="physical_info exercise_time">
-                    <button className='brack_btn'><span>3</span>min</button>
-                    <button className='brack_btn'><span>5</span>min</button>
-                    <button className='brack_btn'><span>8</span>min</button>
-                    <button className='brack_btn'><span>10</span>min</button>
-                    <button className='brack_btn'><span>15</span>min</button>
+                <div>
+                    
+                        <div className="physical_info">
+                            <div className="brack_btn">
+                                <button className="brack_btn"
+                                    
+                                    onClick={e => addLocalStorage(e.target.innerText)}>
+                                    15
+                                </button>
+                            </div>
+                            <div className="brack_btn">
+                                <button className="brack_btn"
+                                   
+                                    onClick={e => addLocalStorage(e.target.innerText)}>
+                                    25
+                                </button>
+                            </div>
+                            <div className="brack_btn">
+                                <button className="brack_btn"
+                                    
+                                    onClick={e => addLocalStorage(e.target.innerText)}>
+                                    35
+                                </button>
+                            </div>
+                            <div className="brack_btn">
+                                <button className="brack_btn"
+                                    
+                                    onClick={e => addLocalStorage(e.target.innerText)}>
+                                    45
+                                </button>
+                            </div>
+                            <div className="brack_btn">
+                                <button className="brack_btn" 
+                                    
+                                    onClick={e => addLocalStorage(e.target.innerText)}>
+                                    60
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="exercise">
             <h1>Exercise Details</h1>
             <div className="exercise_time">
-                <h3>Exercise time <small className='sort_text'><span >00</span> seconds</small> </h3>
+                <h3>Exercise time <small className='sort_text'><span >{time}</span> seconds</small> </h3>
             </div>
             <div className="exercise_time">
-                <h3>Break time <small className='sort_text'><span >00</span> seconds</small> </h3>
+                <div>
+                    <h1 >Break time </h1>
+                    <span>{getLocalStorageItem} seconds</span>
+                </div>
             </div>
             </div>
             <div className="acitivety">
-                <button className='acti_btn'>Activity Completed</button>
+                <button className='acti_btn' onClick={notify}>Activity Completed</button>
             </div>
         </div>
     );

@@ -3,42 +3,42 @@
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
     "name": "ABS Work Out",
     "details":"When you train your abs daily, your muscle endurance goes up, according to a study published in the journal Sports Medicines. But for that you have to do targeted exercises for all four different parts of your core.",
-    "Time": 25,
+    "time": 25,
     "img": "https://barbend.com/wp-content/uploads/2022/08/Shutterstock_1484920574-1.jpg"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d2ead",
     "name": "Arm Muscles Work Out",
     "details":"Working out your arms and shoulders has many benefits. It can increase your muscle strength, muscle tone, and lean muscle mass. It can also reduce your risk of injury, improve your posture, protect your bones, and stabilize your joints.",
-    "Time": 35,
+    "time": 35,
     "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/young-bodybuilder-working-out-royalty-free-image-1614949873."
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362djhkh",
     "name": "LAG Work Out",
     "details":"Generally, it's recommended to train your legs three times a week, with each workout lasting 15 to 20 minutes and targeting different parts of the legs in each routine. For instance, a good plan would be to work on calves one day, thighs the next and then hips during the final session.",
-    "Time": 20,
+    "time": 20,
     "img": "https://img.mensxp.com/media/content/2018/Feb/header-1518884961.jpg"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362fghfgh",
     "name": "Back Muscles Work Out",
     "details":"Strength training your back muscles will add muscle mass to your upper body, which can help make your waist look smaller. Like your chest, your back is made up of big muscles that can handle heavy weight and, therefore, help you burn more calories",
-    "Time": 30,
+    "time": 30,
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToXL82x0dw72t1u5gJ2R9BNmyhuocR01F-WA&usqp=CAU"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362gjj",
     "name": "Running",
     "details":"As a form of cardio exercise that's easily accessible, running is one of the most straightforward ways to get the important benefits of exercise. Since it improves aerobic fitness, running is a great way to help improve cardiovascular health. Plus, it burns calories and can build strength, among other things.",
-    "Time": 45,
+    "time": 45,
     "img": "https://media1.popsugar-assets.com/files/thumbor/MJKDl1s1GdEnLpKjaKaQujoR1Bg/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2018/06/17/807/n/1922729/510481e95b26a71ded80c9.32907110_/i/Cardio-Workouts-Gym-Treadmill.jpg"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362djhjghsd",
     "name": "Cycling",
     "details":"Exercise bikes are good for weight loss because they are a really efficient and effective way to burn calories, and cycling is a cardiovascular aerobic activity that has added benefits such as strengthening your heart, lungs and muscles, says Rowe-Ham",
-    "Time": 40,
+    "time": 40,
     "img": "https://www.siroko.com/blog/c/app/uploads/2021/07/fitness_21858fa8-864f-404f-9bf5-c2a7d5f72ed7-1440x900.jpg"
   }
   
