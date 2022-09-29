@@ -1,0 +1,35 @@
+.user_info{
+    padding: 15px;
+}
+.physical_info h2 ,h3{
+    padding: 0;
+    margin: 0;
+}
+.brack_btn{
+    width: 50px;
+    padding: 2px;
+    margin-left: 5px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+}
+.physical_info{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+
+}
+.sort_text{
+    margin-left: 13px;
+}
+.exercise_time{
+    background-color: rgb(206, 200, 200);
+    padding: 15px 5px;
+    margin-top: 10px;
+}
+.acti_btn{
+    padding: 15px 30px;
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+}
