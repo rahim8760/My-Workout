@@ -101,8 +101,9 @@ const Sidebar = ({time}) => {
             </div>
             </div>
             <div className="acitivety">
-                <button className='acti_btn' onClick={notify}>Activity Completed</button>
+                <button onClick={notify} className='acti_btn'>Activity Completed</button>
             </div>
+            <ToastContainer />
         </div>
     );
 };
