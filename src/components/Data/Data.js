@@ -16,6 +16,8 @@ const Data = () => {
         .then( data => setWorkouts(data));
     } ,[]);
 
+
+    // add even hendelar for addlist
     const workTimeEvent= (workout)=>{
         console.log(workout);
     }
