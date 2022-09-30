@@ -91,7 +91,7 @@ const Sidebar = ({time}) => {
             <div className="exercise">
             <h1>Exercise Details</h1>
             <div className="exercise_time">
-                <h3>Exercise time <small className='sort_text'><span >{time}</span> seconds</small> </h3>
+                <h3>Exercise time <small className='sort_text'><span >{time}</span> mints</small> </h3>
             </div>
             <div className="exercise_time">
                 <div>
